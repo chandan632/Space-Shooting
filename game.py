@@ -1,5 +1,11 @@
 import pygame
 
+pygame.mixer.init()
+
+pygame.mixer.music.load("sound/song.mp3")
+
+pygame.mixer.music.set_volume(0.7)
+
 screen_size = [360, 600]
 screen = pygame.display.set_mode(screen_size)
 background = pygame.image.load("assets/background.png")
@@ -58,6 +64,7 @@ while keep_alive:
         else:
             print("YOU WIN")
             keep_alive = False
+        pygame.mixer.music.play()
         print("BOOM")
 
     pygame.display.update()
