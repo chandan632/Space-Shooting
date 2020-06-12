@@ -1,6 +1,6 @@
 # Space Shooting Game In Python
 
-*This is a **Space Shooting Game** using python module **pygame**. You can fire by pressing space key. There are 3 planets on my universe, LOL. If you destroy all of them you will be winner.*
+*This is a **Space Shooting Game** using python module **pygame**. You can fire by pressing space key. There are 3 planets on my universe, LOL.When you destroy any planet a small sound will be popped up and if you destroy all of them you will be winner.*
 
 ## Installtion
 
